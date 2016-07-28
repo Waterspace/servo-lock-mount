@@ -24,18 +24,18 @@ difference(){
     translate([10.0,11.0, 5]) cylinder(h=23.9,r1=4,r2=4);
        
     //bolt holes for servo attachment top
-    translate([24.6,-4.7,22.6]) cylinder(h=5.2,r1=2.2,r2=2.2);
-    translate([24.6,4.7,22.6]) cylinder(h=5.2,r1=2.2,r2=2.2);
+    translate([24.6,-4.7,20.6]) cylinder(h=7.2,r1=1.8,r2=1.8);
+    translate([24.6,4.7,20.6]) cylinder(h=7.2,r1=1.8,r2=1.8);
     //nut hole for servo attachment top
-    translate([24.6, -4.7, -0.2]) hex(width=5, height=23, flats=true, center=false);
-    translate([24.6, 4.7, -0.2]) hex(width=5, height=23, flats=true, center=false);    
+    translate([24.6, -4.7, -0.2]) hex(width=6, height=21, flats=true, center=false);
+    translate([24.6, 4.7, -0.2]) hex(width=6, height=21, flats=true, center=false);    
     
     //bolt holes for servo attachment bottom
-    translate([-24.6,-4.7,22.6]) cylinder(h=5.2,r1=2.2,r2=2.2);
-    translate([-24.6,4.7,22.6]) cylinder(h=5.2,r1=2.2,r2=2.2);
+    translate([-24.6,-4.7,20.6]) cylinder(h=7.2,r1=1.8,r2=1.8);
+    translate([-24.6,4.7,20.6]) cylinder(h=7.2,r1=1.8,r2=1.8);
     //nut hole for servo attachment bottom
-    translate([-24.6, -4.7, -0.2]) hex(width=5, height=23, flats=true, center=false);
-    translate([-24.6, 4.7, -0.2]) hex(width=5, height=23, flats=true, center=false);
+    translate([-24.6, -4.7, -0.2]) hex(width=6, height=21, flats=true, center=false);
+    translate([-24.6, 4.7, -0.2]) hex(width=6, height=21, flats=true, center=false);
     
     //holes for the plate mounting screws to the door
     translate([20,-20,2.5]) cylinder(h=5.2,r1=1.5,r2=1.5, center=true);
